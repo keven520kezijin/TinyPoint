@@ -1,5 +1,5 @@
 module.exports = {
-  title: '虹旭小区居民信息管理系统',
+  title: '柯文柯文',
 
   /**
    * @type {boolean} true | false
