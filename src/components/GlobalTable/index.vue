@@ -6,7 +6,6 @@
       :label="item.label"
       :prop="item.field"
       :min-width="item.width"
-      :formatter="formatterParmas"
       show-overflow-tooltip
     />
   </el-table>
@@ -33,9 +32,12 @@ export default {
     },
     tableOption: {
       // 表格属性
-      type: Object,
+      type: Array,
       default: null
     }
+  },
+  methods: {
+    handleSelectionChange() {}
   }
 }
 </script>
